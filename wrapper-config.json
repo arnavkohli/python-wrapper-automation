@@ -1,0 +1,31 @@
+{	
+	"PROTOCOL" : "https",
+	"HOST" : "api.test.com",
+	"COMMON" : "v1",
+	"HEADERS" : {
+		"key" : "1234"
+	},
+
+	"REQUESTS": {
+		"GET" : [
+			"/user/info",
+			"/cart/info",
+			"/product/info"
+		],
+		"POST" : [
+			"/user/register",
+			"/user/login",
+			"/cart/addProduct",
+			"/cart/removeProduct"
+		],
+		"PUT" : [
+			"/user/update",
+			"/cart/update"
+		],
+		"DELETE" : [
+			"/user/delete",
+			"/cart/delete",
+			"/product/delete"
+		]
+	}
+}
