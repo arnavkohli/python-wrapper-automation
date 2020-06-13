@@ -6,7 +6,7 @@
 
 ## Usage
 
-***wrapper-config.json*** 
+Configure ***wrapper-config.json*** as per requirements:
 
     {	
 	  "PROTOCOL" : "https",
@@ -39,6 +39,10 @@
 		  ]
 	  }
     }
+
+### Run the wrapper:
+	python main.py
+
 ***mera_wrapper.py*** would look something like:
 
     import os
