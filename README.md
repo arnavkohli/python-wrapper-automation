@@ -1,4 +1,4 @@
-# python-wrapper-automation
+# wrapit
 
 - Automates the process of creating python wrapper classes for an API.
 
